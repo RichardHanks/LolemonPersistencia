@@ -20,7 +20,7 @@ public class Consultas {
 	Conexion con = new Conexion();
 	EntityManager em;
 	
-	//Hola Richard, funcionó?
+	
 	public Consultas() {
 		 em = con.getem();
 	}

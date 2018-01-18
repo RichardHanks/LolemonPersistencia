@@ -28,6 +28,7 @@ public class Personaje implements Serializable {
 	private Double recargo = 0.10;
 	private String sprite;
 	private boolean estaBloqueado;
+	private boolean creado;
 	
 	public Personaje() {
 		
@@ -132,6 +133,15 @@ public class Personaje implements Serializable {
 
 	public void setEstaBloqueado(boolean estaBloqueado) {
 		this.estaBloqueado = estaBloqueado;
+	}
+
+	
+	public boolean esCreado() {
+		return creado;
+	}
+
+	public void setCreado(boolean creado) {
+		this.creado = creado;
 	}
 
 	@Override
