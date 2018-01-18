@@ -1,13 +1,18 @@
 package lolemon.consultas;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.Query;
+
+import lolemon.persistencia.base.*;
+import lolemon.persistencia.modelo.*;
+
 /**
  * @author Richard
  */
-import java.util.ArrayList;
-import java.util.List;
-import javax.persistence.EntityManager;
-import javax.persistence.Query;
-import lolemon.persistencia.base.Conexion;
-import lolemon.persistencia.modelo.*;
+
 
 
 public class Consultas {
@@ -15,7 +20,7 @@ public class Consultas {
 	Conexion con = new Conexion();
 	EntityManager em;
 	
-	
+	//Hola Richard, funcionó?
 	public Consultas() {
 		 em = con.getem();
 	}
