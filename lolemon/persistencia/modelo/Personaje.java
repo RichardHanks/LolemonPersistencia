@@ -33,6 +33,7 @@ public class Personaje implements Serializable {
 	private boolean estaBloqueado;
 	private boolean creado;
 	private List<String> mensajes;
+	private int coste;
 	
 	public Personaje() {
 		
@@ -201,5 +202,12 @@ public class Personaje implements Serializable {
 		this.mensajes = mensajes;
 	}
 	
+	public void setCoste(int coste) {
+		this.coste = coste;
+	}
+	
+	public int getCoste() {
+		return coste;
+	}
 	
 }
