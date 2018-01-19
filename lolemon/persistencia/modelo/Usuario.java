@@ -20,6 +20,8 @@ public class Usuario implements Serializable {
 	private String contraseña;
 	private List<Personaje> personajes;
 	private Integer puntos;
+	private Historial historial;
+	private Inventario Inventario;
 	
 	public Usuario() {
 		// TODO Auto-generated constructor stub
@@ -63,6 +65,22 @@ public class Usuario implements Serializable {
 
 	public void setPuntos(Integer puntos) {
 		this.puntos = puntos;
+	}
+
+	public Historial getHistorial() {
+		return historial;
+	}
+
+	public void setHistorial(Historial historial) {
+		this.historial = historial;
+	}
+
+	public Inventario getInventario() {
+		return Inventario;
+	}
+
+	public void setInventario(Inventario inventario) {
+		Inventario = inventario;
 	}
 	
 	

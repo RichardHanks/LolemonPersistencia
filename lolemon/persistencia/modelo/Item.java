@@ -11,26 +11,21 @@ public class Item extends Movimiento implements Serializable {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private boolean vida;
+	
 	private Integer incremento;
+	private Tipo tipo;
 	
 	public Item() {
 		
 	}
 
-	public Item(boolean tipo, Integer incremento) {
+	public Item(Integer incremento,Tipo tipo) {
 		super();
-		this.vida = tipo;
+		
 		this.incremento = incremento;
+		this.tipo= tipo;
 	}
 
-	public boolean getvida() {
-		return vida;
-	}
-
-	public void setVida(boolean vida) {
-		this.vida = vida;
-	}
 
 	public Integer getIncremento() {
 		return incremento;
@@ -39,6 +34,16 @@ public class Item extends Movimiento implements Serializable {
 	public void setIncremento(Integer incremento) {
 		this.incremento = incremento;
 	}
+
+	public Tipo getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(Tipo tipo) {
+		this.tipo = tipo;
+	}
+
+	
 	
 	
 }

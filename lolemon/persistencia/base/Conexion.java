@@ -39,11 +39,11 @@ public class Conexion {
 	private static void crear() {
 		 em.getTransaction().begin();
 		 
-		 Habilidad h = new Habilidad(50, 25);
-		 h.setNombre("sentencia de muerte");
-		 h.setDescripcion("lanza un gancho");
-		 h.setIcono("imagenes/whatever");
-		 em.persist(h);
+//		 Habilidad h = new Habilidad(50, 25);
+//		 h.setNombre("sentencia de muerte");
+//		 h.setDescripcion("lanza un gancho");
+//		 h.setIcono("imagenes/whatever");
+		 //em.persist(h);
 		 
 		 Personaje p = new Personaje();
 		 p.setNombre("ahri");

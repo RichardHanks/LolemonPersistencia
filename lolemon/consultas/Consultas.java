@@ -178,7 +178,7 @@ public class Consultas {
 		u.setDefensa(personaje.getDefensa());
 		u.setEnergia(personaje.getEnergia());
 		u.setEstaBloqueado(personaje.EstaBloqueado());
-		u.setHabilidades(personaje.getHabilidades());
+		u.setHabilidades((ArrayList<Habilidad>) personaje.getHabilidades());
 		u.setRecargo(personaje.getRecargo());
 		u.setSprite(personaje.getSprite());
 		u.setVelocidad(personaje.getVelocidad());

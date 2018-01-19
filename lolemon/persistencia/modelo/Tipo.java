@@ -1,5 +1,5 @@
 package lolemon.persistencia.modelo;
 
 public enum Tipo {
-	VIDA, ENERGIA;
+	VIDA, ENERGIA, DEFENSA;
 }
